@@ -18,7 +18,7 @@ const FriendsActivity = () => {
 			<div className='p-4 flex justify-between items-center border-b border-zinc-800'>
 				<div className='flex items-center gap-2'>
 					<Users className='size-5 shrink-0' />
-					<h2 className='font-semibold'>What they're listening to</h2>
+					<h2 className='font-semibold'>Les Amis</h2>
 				</div>
 			</div>
 
@@ -93,8 +93,8 @@ const LoginPrompt = () => (
 		</div>
 
 		<div className='space-y-2 max-w-[250px]'>
-			<h3 className='text-lg font-semibold text-white'>See What Friends Are Playing</h3>
-			<p className='text-sm text-zinc-400'>Login to discover what music your friends are enjoying right now</p>
+			<h3 className='text-lg font-semibold text-white'>Découvrez à quoi jouent vos amis</h3>
+			<p className='text-sm text-zinc-400'>Connectez-vous pour découvrir la musique que vos amis apprécient en ce moment</p>
 		</div>
 	</div>
 );

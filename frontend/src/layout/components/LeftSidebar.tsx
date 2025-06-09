@@ -33,7 +33,7 @@ const LeftSidebar = () => {
 						)}
 					>
 						<HomeIcon className='mr-2 size-5' />
-						<span className='hidden md:inline'>Home</span>
+						<span className='hidden md:inline'>Page d'accueil</span>
 					</Link>
 
 					<SignedIn>
@@ -81,7 +81,7 @@ const LeftSidebar = () => {
 
 									<div className='flex-1 min-w-0 hidden md:block'>
 										<p className='font-medium truncate'>{album.title}</p>
-										<p className='text-sm text-zinc-400 truncate'>Album • {album.artist}</p>
+										<p className='text-sm text-zinc-400 truncate'>Playlist • {album.artist}</p>
 									</div>
 								</Link>
 							))
